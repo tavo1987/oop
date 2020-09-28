@@ -2,10 +2,13 @@ package main
 
 import (
 	"fmt"
+
+	"github.com/tavo1987/oop/course"
 )
 
 func main() {
-	golang := Course{
+
+	golang := course.Course{
 		Name:    "Golang from scratch",
 		Price:   29.99,
 		IsFree:  false,
